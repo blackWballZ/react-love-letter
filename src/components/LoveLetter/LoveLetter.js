@@ -37,7 +37,9 @@ const LoveLetter = () => {
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
         mah dear kundanapu bomma🖤,<br />
        <br />
-        forever yours,<br />
+        <br />
+          <br />
+          <br />
         @thanmai 🪈🦚🪷
       </div>
       <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
